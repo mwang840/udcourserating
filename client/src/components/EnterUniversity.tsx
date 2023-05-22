@@ -6,7 +6,7 @@ export function EnterUniversity(){
         <Form>
           <Form.Group className="mb-3" controlId="formBasicEmail">
           <Form.Label>University Name Goes here</Form.Label>
-        <Form.Control type="email" placeholder="Enter University" />
+        <Form.Control type="email"/>
         <Form.Text className="text-muted">
             We'll find that University for You!
         </Form.Text>
