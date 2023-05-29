@@ -1,18 +1,22 @@
 import React from 'react';
+import { Button } from 'react-bootstrap';
 import { EnterUniversity } from './components/EnterUniversity';
-//import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        {/* <img src={logo} className="App-logo" alt="logo" /> */}
+        <div className='bg'>
         <h1>
           Rate My Course
         </h1>
         <EnterUniversity></EnterUniversity>
+        <Button>Login</Button>
+        </div>
+        
       </header>
+      
     </div>
   );
 }
