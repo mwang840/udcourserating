@@ -1,0 +1,9 @@
+.bg{
+    align-content: center;
+    background-image: url(images/abstract_background.jpg);
+    width: 5000px;
+    height: 5000px;
+    background-size: cover;
+    z-index: 1;
+    position: relative;
+  }
