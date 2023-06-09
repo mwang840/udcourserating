@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Form, Button } from "react-bootstrap";
+import { Link } from "react-router-dom";
 import styles from "./EnterUniversity.module.css";
 
 import uniDomain from "node-university-domains";
@@ -54,9 +55,11 @@ export function EnterUniversity() {
                         <br />
                     </Form.Text>
                 </Form.Group>
-                <Button className={styles.find_button} type="submit">
-                    Find My University
-                </Button>
+                <Link to="/UniversityName">
+                    <Button className={styles.find_button} type="submit">
+                        Find My University
+                    </Button>
+                </Link>
             </Form>
         </div>
     );

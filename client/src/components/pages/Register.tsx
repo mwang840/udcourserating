@@ -99,9 +99,9 @@ export function Register(): JSX.Element {
                 <Button className="signupBtn">Register</Button>
                 <p>
                     Already have an account?{" "}
-                    <span className="link" onClick={toLogin}>
+                    <button className="link" onClick={toLogin}>
                         Login
-                    </span>
+                    </button>
                 </p>
             </form>
         </div>
