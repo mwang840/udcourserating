@@ -1,8 +1,8 @@
 import React from "react";
 import { Button } from "react-bootstrap";
-import { EnterUniversity } from "./components/pages/EnterUniversity";
-import { Register } from "./components/pages/Register";
-import { Navbar } from "./components/navbar/Navbar";
+import { EnterUniversity } from "@pages/EnterUniversity";
+import { Register } from "@pages/Register";
+import { Navbar } from "@navbar/Navbar";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./App.css";
 import { Home } from "./components/pages/Home";
