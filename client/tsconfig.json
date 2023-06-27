@@ -1,6 +1,11 @@
 {
   "compilerOptions": {
     "target": "es5",
+    "paths": {
+      "@pages/*": ["./src/components/pages/*"],
+      "@navbar/*": ["./src/components/navbar/*"],
+      "@courses/*": ["./src/components/courses/*"]
+    },
     "lib": [
       "dom",
       "dom.iterable",
