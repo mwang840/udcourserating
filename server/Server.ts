@@ -1,5 +1,4 @@
 import { Express, Request, Response } from "express";
-
 export class Server {
     private app: Express;
     
@@ -13,4 +12,5 @@ export class Server {
     public start(port: number): void {
         this.app.listen(port, () => console.log(`Server listening on port ${port}!`));
     }
+    
 }
